@@ -109,9 +109,7 @@ sudo reboot
 ### Enabling SPI from raspi-config</br>
 1. Execute the command stated below on the terminal:<br/>
 <br/>
-``` bash
 sudo raspi-config
-```
 <br/>
 2. Click interface options.
 <br/>
@@ -125,9 +123,7 @@ sudo raspi-config
 <br/>
 5. Perform the reboot using the command stated below:<br/>
 </br>
-``` bash
 sudo reboot
-```
 <br/>
 <br/>
 
@@ -135,9 +131,7 @@ sudo reboot
 <br/>
 1. Open the terminal and execute the command stated below:<br/>
 </br>
-``` bash
 sudo pip3 install spidev
-```
 <br/>
 <img width="580" alt="spidev" src="https://user-images.githubusercontent.com/53862641/103868008-48dfd800-50ee-11eb-9dde-3517b5afb661.png">
 <br/>
@@ -147,9 +141,9 @@ sudo pip3 install spidev
 <br/>
 ## Open the terminal and execute the command stated below:<br/>
 <br/>
-``` bash
+
 sudo pip3 install mfrc522
-```
+
 <br/>
 <img width="572" alt="rc522ter" src="https://user-images.githubusercontent.com/53862641/103868180-8c3a4680-50ee-11eb-945e-9eb584731b89.png">
 <br/>
