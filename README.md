@@ -48,7 +48,7 @@ Radio-frequency identification uses electromagnetic fields to automatically iden
 <br/>
 
 ### Enabling serial from Raspi-config:
-1.  Open Command Prompt and perform the command stated below
+1.  Open terminal and perform the command stated below
 ``` bash
 sudo raspi-config
 ```
@@ -98,7 +98,69 @@ sudo reboot
 <br/>
 <br/>
 
-###### Run the code stored in the EM18 rfid code.py file.
+##### Run the code stored in the EM18 rfid code.py file.
+<br/>
+<br/>
+
+
+## Working with RC522 Module
+<br/>
+### Enabling SPI from raspi-config
+1. Execute the command stated below on the terminal:
+``` bash
+sudo raspi-config
+```
+<br/>
+2. Click interface options.
+<br/>
+<img width="305" alt="interface" src="https://user-images.githubusercontent.com/53862641/103867291-1b465f00-50ed-11eb-9c29-ad4507598f7d.png">
+<br/>
+3. Click SPI
+<br/>
+<img width="293" alt="spi" src="https://user-images.githubusercontent.com/53862641/103867374-3c0eb480-50ed-11eb-9d5a-6251cae9c710.png">
+<br/>
+4. Press Yes, When asked **WOULD YOU LIKE TO ENABLE SPI INTERFACE**
+<br/>
+5. Perform the reboot using the command stated below:
+``` bash
+sudo reboot
+```
+<br/>
+<br/>
+
+### Install **SPIDEV**
+<br/>
+1. Open the terminal and execute the command stated below:
+``` bash
+sudo pip3 install spidev
+```
+<br/>
+<img width="580" alt="spidev" src="https://user-images.githubusercontent.com/53862641/103868008-48dfd800-50ee-11eb-9dde-3517b5afb661.png">
+<br/>
+<br/>
+
+### Install **MFRC522**
+<br/>
+1. Open the terminal and execute the command stated below:
+``` bash
+sudo pip3 install mfrc522
+```
+<br/>
+<img width="572" alt="rc522ter" src="https://user-images.githubusercontent.com/53862641/103868180-8c3a4680-50ee-11eb-945e-9eb584731b89.png">
+<br/>
+<br/>
+
+### Perform the connections
+<br/>
+<img width="415" alt="rc522connection" src="https://user-images.githubusercontent.com/53862641/103868544-066acb00-50ef-11eb-8cd7-e28759e3b7c4.png">
+<br/>
+<br/>
+### Run the codes stored in the rc522 folder.
+<br/>
+<br/>
+**NOTE UNLIKE EM18, IN RC522 WE CAN STORE THE RFID CODES BY RUNNING THE CODE STORE IN THE RC522 READ FILE, BY JUST BRINGING THE TAG NEAR THE READER.
+
+
 
 
 
