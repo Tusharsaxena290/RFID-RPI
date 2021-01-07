@@ -105,8 +105,10 @@ sudo reboot
 
 ## Working with RC522 Module<br/>
 <br/>
+
 ### Enabling SPI from raspi-config</br>
 1. Execute the command stated below on the terminal:<br/>
+<br/>
 ``` bash
 sudo raspi-config
 ```
@@ -119,18 +121,20 @@ sudo raspi-config
 <br/>
 <img width="293" alt="spi" src="https://user-images.githubusercontent.com/53862641/103867374-3c0eb480-50ed-11eb-9d5a-6251cae9c710.png">
 <br/>
-4. Press Yes, When asked **WOULD YOU LIKE TO ENABLE SPI INTERFACE**
+4. Press Yes, When asked WOULD YOU LIKE TO ENABLE SPI INTERFACE
 <br/>
 5. Perform the reboot using the command stated below:<br/>
+</br>
 ``` bash
 sudo reboot
 ```
 <br/>
 <br/>
 
-### Install **SPIDEV**
+### Install SPIDEV
 <br/>
 1. Open the terminal and execute the command stated below:<br/>
+</br>
 ``` bash
 sudo pip3 install spidev
 ```
@@ -139,9 +143,10 @@ sudo pip3 install spidev
 <br/>
 <br/>
 
-### Install **MFRC522**
+### Install MFRC522<br/>
 <br/>
 ## Open the terminal and execute the command stated below:<br/>
+<br/>
 ``` bash
 sudo pip3 install mfrc522
 ```
@@ -155,7 +160,7 @@ sudo pip3 install mfrc522
 <img width="415" alt="rc522connection" src="https://user-images.githubusercontent.com/53862641/103868544-066acb00-50ef-11eb-8cd7-e28759e3b7c4.png">
 <br/>
 <br/>
-#### Run the codes stored in rc522 folder.
+ Run the codes stored in rc522 folder.
 <br/>
 <br/>
 
