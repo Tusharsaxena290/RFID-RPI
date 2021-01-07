@@ -98,7 +98,7 @@ sudo reboot
 <br/>
 <br/>
 
-### Run the code stored in the em18rread.py file.
+###### Run the code stored in the EM18 rfid code.py file.
 
 
 
