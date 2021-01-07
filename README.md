@@ -103,10 +103,10 @@ sudo reboot
 <br/>
 
 
-## Working with RC522 Module
+## Working with RC522 Module<br/>
 <br/>
-### Enabling SPI from raspi-config
-1. Execute the command stated below on the terminal:
+### Enabling SPI from raspi-config</br>
+1. Execute the command stated below on the terminal:<br/>
 ``` bash
 sudo raspi-config
 ```
@@ -121,7 +121,7 @@ sudo raspi-config
 <br/>
 4. Press Yes, When asked **WOULD YOU LIKE TO ENABLE SPI INTERFACE**
 <br/>
-5. Perform the reboot using the command stated below:
+5. Perform the reboot using the command stated below:<br/>
 ``` bash
 sudo reboot
 ```
@@ -130,7 +130,7 @@ sudo reboot
 
 ### Install **SPIDEV**
 <br/>
-1. Open the terminal and execute the command stated below:
+1. Open the terminal and execute the command stated below:<br/>
 ``` bash
 sudo pip3 install spidev
 ```
@@ -141,7 +141,7 @@ sudo pip3 install spidev
 
 ### Install **MFRC522**
 <br/>
-1. Open the terminal and execute the command stated below:
+## Open the terminal and execute the command stated below:<br/>
 ``` bash
 sudo pip3 install mfrc522
 ```
@@ -155,10 +155,11 @@ sudo pip3 install mfrc522
 <img width="415" alt="rc522connection" src="https://user-images.githubusercontent.com/53862641/103868544-066acb00-50ef-11eb-8cd7-e28759e3b7c4.png">
 <br/>
 <br/>
-### Run the codes stored in rc522 folder.
+#### Run the codes stored in rc522 folder.
 <br/>
 <br/>
-**Note unlike EM18 module, in RC522 module, we can store the unique rfid id by running the code stored in rc522 read.py file.**
+
+Note unlike EM18 module, in RC522 module, we can store the unique rfid id by running the code stored in rc522 read.py file .
 
 
 
