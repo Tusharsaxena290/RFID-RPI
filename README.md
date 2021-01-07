@@ -51,8 +51,8 @@ Radio-frequency identification uses electromagnetic fields to automatically iden
 1.  Open Command Prompt and perform the command stated below
 ``` bash
 sudo raspi-config
-<br/>
 ```
+<br/>
 
 <img width="300" alt="sudo1" src="https://user-images.githubusercontent.com/53862641/103859237-bafcf080-50df-11eb-9b3a-82758c2efa27.png">
 <br/>
