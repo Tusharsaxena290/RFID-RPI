@@ -155,10 +155,10 @@ sudo pip3 install mfrc522
 <img width="415" alt="rc522connection" src="https://user-images.githubusercontent.com/53862641/103868544-066acb00-50ef-11eb-8cd7-e28759e3b7c4.png">
 <br/>
 <br/>
-### Run the codes stored in the rc522 folder.
+### Run the codes stored in rc522 folder.
 <br/>
 <br/>
-** NOTE UNLIKE EM18, IN RC522 WE CAN STORE THE RFID CODES BY RUNNING THE CODE STORE IN THE RC522 READ FILE, BY JUST BRINGING THE TAG NEAR THE READER. **
+**Note unlike EM18 module, in RC522 module, we can store the unique rfid id by running the code stored in rc522 read.py file.**
 
 
 
