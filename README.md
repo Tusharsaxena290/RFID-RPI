@@ -88,9 +88,9 @@ sudo reboot
 
 ## Perform the connection
 <br/>
-1.TX of EM18 to RX of Raspberry pi
-2.vcc to 5v
-3.GND of EM18 to GND of raspberry pi
+1.TX of EM18 to RX of Raspberry pi<br/>
+2.vcc to 5v<br/>
+3.GND of EM18 to GND of raspberry pi<br/>
 
 <br/>
 <img width="464" alt="em18image" src="https://user-images.githubusercontent.com/53862641/103861113-e2a18800-50e2-11eb-8d83-97f7c0ee82f2.png">
